@@ -47,14 +47,14 @@ class MyApp extends App {
           <meta property="og:url" content="https://atomicwealth.co/" />
           <meta property="og:description" content="Boost Crypto Wealth with DeFi Staking & Mining 🚀" />
           <meta property="og:type" content="article" />
-          <meta property="og:image" content={"https://sale.atomicwealth.co" + OpenGraphImg} />
+          <meta property="og:image" content={"https://raise.atomicwealth.co" + OpenGraphImg} />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="https://atomicwealth.co/" />
           <meta name="twitter:title" content="ATMW | Boost Crypto Wealth with DeFi Staking & Mining 🚀" />
-          <meta name="twitter:image" content={"https://sale.atomicwealth.co/" + OpenGraphImg} />
+          <meta name="twitter:image" content={"https://raise.atomicwealth.co/" + OpenGraphImg} />
           <meta name="twitter:image:width" content="1200" />
           <meta name="twitter:image:height" content="630" />
           <meta name="twitter:description" content="Boost Crypto Wealth with DeFi Staking & Mining 🚀" />
