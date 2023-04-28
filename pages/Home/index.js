@@ -153,16 +153,16 @@ function Home() {
           <div className="p-2" style={{ maxWidth: "300px", marginLeft: "auto", marginRight: "auto" }}>
             <ul>
               <hr className="m-2 has-background-primary" />
-              <li style={{ textShadow: "0px 0px 4px black" }}>1 ATMW = $0.48</li>
+              <li style={{ textShadow: "0px 0px 4px black" }}>1 ATMW = $0.50 (LAUNCH: $0.60)</li>
               <li style={{ textShadow: "0px 0px 4px black" }}>Hardcap: {displayWad(hardcap)} USD</li>
               <li style={{ textShadow: "0px 0px 4px black" }}>Total Deposits: {displayWad(totalDeposits)} USD</li>
               <li style={{ textShadow: "0px 0px 4px black" }}>Wallet Max: None{/*{displayWad(maxDepositWad)} USD*/}</li>
               <li style={{ textShadow: "0px 0px 4px black" }}>Wallet Min: {displayWad(minDepositWad)} USD</li>
               <hr className="m-2 has-background-primary" />
               <li style={{ textShadow: "0px 0px 4px black" }}>Launch Timers</li>
-              <li style={{ textShadow: "0px 0px 4px black" }}>SALE PAUSED</li>
+              <li style={{ textShadow: "0px 0px 4px black" }}>SALE PAUSED</li>{/*
               <li style={{ textShadow: "0px 0px 4px black" }}>Start Timer: {startEpochTimer}</li>
-              <li style={{ textShadow: "0px 0px 4px black" }}>End Timer: {endEpochTimer}</li>
+  <li style={{ textShadow: "0px 0px 4px black" }}>End Timer: {endEpochTimer}</li>*/}
               <hr className="m-2 has-background-primary" />
               <li style={{ textShadow: "0px 0px 4px black" }}>Your Deposit: {displayWad(depositedAmount)} USD</li>
               <hr className="m-2 has-background-primary" />
