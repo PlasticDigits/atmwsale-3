@@ -245,9 +245,9 @@ function Home() {
           <br />
           <div className="pt-3 pb-6 pt-6" style={{ marginTop: '5em' }}>
             <div classname="m-3" style={{ display: "inline-block", maxWidth: "240px", textAlign: 'center' }}>
-              <span >Sponsor (5% of raise):</span><br />
+              <span >Sponsored By BabyPepeDao (5% of raise)</span><br />
               <figure className="image m-0" style={{ display: "block", maxWidth: "240px", marginLeft: 'auto', marginRight: 'auto' }}>
-                <a href="https://www.babypepe.org/"><img src={BabyPepeDao} style={{ marginTop: "-20px" }} /></a>
+                <a href="https://www.babypepe.org/"><img src={BabyPepeDao} /></a>
               </figure>
             </div><br /><br /><br />
             <figure className="image m-3" style={{ display: "inline-block", maxWidth: "240px" }}>
