@@ -9,6 +9,7 @@ import Footer from '../../components/Footer';
 import Web3ModalButton from '../../components/Web3ModalButton';
 import { ADDRESS_BUSD, ADDRESS_CZUSD, ADDRESS_DGGSALE, ADDRESS_USDC, ADDRESS_USDT } from '../../constants/addresses';
 import useCountdown from "../../hooks/useCountdown";
+import BabyPepeDao from '../../public/static/assets/images/BabyPepeDao.png';
 import PoweredByCz from '../../public/static/assets/images/poweredbycz.png';
 import DggLogo from '../../public/static/assets/logo.png';
 import BackgroundVideo from '../../public/static/assets/vids/bgv1.mp4';
@@ -242,9 +243,17 @@ function Home() {
             >{!!isApproveNeeded ? "APPROVE" : "DEPOSIT"}</button><br />
           </div>
           <br />
-          <figure className="image pt-3 pb-6 pt-6" style={{ display: "inline-block", maxWidth: "120px" }}>
-            <img src={PoweredByCz} />
-          </figure>
+          <div className="pt-3 pb-6 pt-6" style={{ marginTop: '5em' }}>
+            <div classname="m-3" style={{ display: "inline-block", maxWidth: "240px", textAlign: 'center' }}>
+              <span >Sponsor (5% of raise):</span><br />
+              <figure className="image m-0" style={{ display: "block", maxWidth: "240px", marginLeft: 'auto', marginRight: 'auto' }}>
+                <a href="https://www.babypepe.org/"><img src={BabyPepeDao} style={{ marginTop: "-20px" }} /></a>
+              </figure>
+            </div><br /><br /><br />
+            <figure className="image m-3" style={{ display: "inline-block", maxWidth: "240px" }}>
+              <a href="https://czodiac.com/"><img src={PoweredByCz} /></a>
+            </figure>
+          </div>
         </div>
       </div>
     </section>
