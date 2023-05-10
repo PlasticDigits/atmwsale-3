@@ -162,9 +162,9 @@ function Home() {
               <li style={{ textShadow: "0px 0px 4px black" }}>Wallet Min: {displayWad(minDepositWad)} USD</li>
               <hr className="m-2 has-background-primary" />
               <li style={{ textShadow: "0px 0px 4px black" }}>Launch Timers</li>
-              <li style={{ textShadow: "0px 0px 4px black" }}>SALE PAUSED</li>{/*
+              {/*<li style={{ textShadow: "0px 0px 4px black" }}>SALE PAUSED</li>*/}
               <li style={{ textShadow: "0px 0px 4px black" }}>Start Timer: {startEpochTimer}</li>
-  <li style={{ textShadow: "0px 0px 4px black" }}>End Timer: {endEpochTimer}</li>*/}
+              <li style={{ textShadow: "0px 0px 4px black" }}>End Timer: {endEpochTimer}</li>
               <hr className="m-2 has-background-primary" />
               <li style={{ textShadow: "0px 0px 4px black" }}>Your Deposit: {displayWad(depositedAmount)} USD</li>
               <hr className="m-2 has-background-primary" />
